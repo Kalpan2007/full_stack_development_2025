@@ -11,6 +11,7 @@ export default function Blogs({ posts, time }) {
             <strong>{post.title}</strong>
           </li>
         ))}
+        
       </ul>
       <p>
         (This page will revalidate every <strong>30 seconds</strong>)
